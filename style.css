@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.frame {
+
+    background: #EAECF9;
+    width: 1280px;
+    height: 832px;
+    display: grid;
+    place-items: center;
+}
+
+.frame .grid-container {
+    width: 810px;
+    height: 718px;
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: 220px 220px;
+    background-color: #FFF;
+    gap: 15px;
+    padding: 70px 60px;
+
+}
+
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:nth-child(odd) {
+    background-color: #544BAB;
+    color: #FFF;
+}
+
+.card:nth-child(even) {
+    background-color: #EAECF9;
+    color:#37335D;
+}
+
+.card .month {
+    font-family: Poppins;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.card .date {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card .title {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card-info-left {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+   
+}
+.div{
+    width: 689px;
+    height: 108px;
+    background-color: #37335D;
+}
+.card_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-top: auto;
+}
